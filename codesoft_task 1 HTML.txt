@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gorgeous Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo"> PYTHON </h1>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1> WELCOME TO PYTHON PROGRAMING LANGUAGE </h1>
+        <p> Python is a high-level programming language. Its design philosopy emphasizes code readablity with use of significant indentation.</p>
+        <a href="#signup" class="btn">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Key Features Of Python</h2>
+      <div class="feature-item">
+        <h3>Feature 1</h3>
+        <p>Object-oriented programming</p>
+      </div>
+      <div class="feature-item">
+        <h3>Feature 2</h3>
+        <p>Large Standard Library</p>
+      </div>
+      <div class="feature-item">
+        <h3>Feature 3</h3>
+        <p>Free and open-source software</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h3>Service 1</h3>
+        <p>Data science , data analysis</p>
+      </div>
+      <div class="service-item">
+        <h3>Service 2</h3>
+        <p>Machine learning , data engineering</p>
+      </div>
+      <div class="service-item">
+        <h3>Service 3</h3>
+        <p>Web development and software development</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>Contact information and footer links here.</p>
+    </div>
+  </footer>
+</body>
+</html>
